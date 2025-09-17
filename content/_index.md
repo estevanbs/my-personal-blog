@@ -1,17 +1,9 @@
 ---
-title: My Site
+title: estevanbs's blog
 toc: false
 ---
 
-This is the landing page.
+## Posts
 
-## Explore
-
-{{< cards >}}
-  {{< card link="docs" title="Docs" icon="book-open" >}}
-  {{< card link="about" title="About" icon="user" >}}
-{{< /cards >}}
-
-## Documentation
-
-For more information, visit [Hextra](https://imfing.github.io/hextra).
+- [Tipo avançado no TypeScript](2025/09/tipo-avancado-no-typescript/)
+- [Por que esse blog?](2025/09/por-que-esse-blog/)
