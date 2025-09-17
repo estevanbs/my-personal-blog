@@ -76,7 +76,7 @@ type PersonPropertyValue = {
 }
 ```
 
-Funciona! Mas como funciona? O trecho `[K in keyof Person]` faz um loop em todas as propriedades de person, e no nosso caso, para cada propriedade, ele cria um objeto seguindo o que foi declarado na sequência. Aqui aconteceu o seguinte
+Funciona! Mas como funciona? O trecho `[K in keyof Person]` faz um loop em todas as propriedades de person, e no nosso caso, para cada propriedade, ele cria um objeto seguindo o que foi declarado na sequência. Aqui aconteceu o seguinte:
 
 ```
 propertyValue: {
